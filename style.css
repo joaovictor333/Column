@@ -5,14 +5,19 @@
 }
 body{
   background-color: hsl(0, 0%, 95%);
-  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .container{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 70px;
   max-width: 88%;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .CardFirst{
@@ -89,7 +94,6 @@ button:hover{
 
 .attribution{
   text-align: center;
-  margin: auto;
   width: 60%;
   color: black;
   font-family: sans-serif;
@@ -100,10 +104,10 @@ button:hover{
   .container{
     display: block;
   }
-  .ThirdCard{
+  /*.ThirdCard{
    border-radius: 0px 0px 10px 10px;
   }
   .CardFirst{
     border-radius: 10px 10px 0px 0px;
-  }
+  }*/
 }
