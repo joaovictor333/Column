@@ -13,9 +13,6 @@ body{
 }
 .container{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 88%;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -24,7 +21,6 @@ body{
   background-color: hsl(31, 77%, 52%);
   padding: 25px;
   width: 260px;
-  border-radius: 10px 0px 0px 10px;
 }
 
 .SecondCard{
@@ -37,7 +33,6 @@ body{
   background-color: hsl(179, 100%, 13%);
   padding: 25px;
   width: 260px;
-  border-radius: 0px 10px 10px 0px;
 }
 
 h1{
@@ -104,10 +99,4 @@ button:hover{
   .container{
     display: block;
   }
-  /*.ThirdCard{
-   border-radius: 0px 0px 10px 10px;
-  }
-  .CardFirst{
-    border-radius: 10px 10px 0px 0px;
-  }*/
 }
